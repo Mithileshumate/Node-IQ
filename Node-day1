@@ -1,0 +1,30 @@
+Que-1.What is node.js ?
+Ans--> Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side applications using JavaScript.
+
+
+Que-2.What is NPM?
+Ans--> NPM stands for 'Node Package Module',npm is the world's largest software registry.
+ Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+
+
+Que-3.What are the different modules in Node.js?
+Ans--> In Node.js, Modules are the blocks of encapsulated code that communicates with an external application on the basis of their related functionality. Modules can be a single file or a collection of multiples files/folders. The reason programmers are heavily reliant on modules is because of their re-usability as well as the ability to break down a complex piece of code into manageable chunks.
+Modules are of three types:
+Core Modules
+local Modules
+Third-party Modules
+
+
+Que-4.What is the purpose of the module.exports?
+Ans--> The module.exports is actually a property of the module object in node.js. module. Exports is the object that is returned to the require() call. By module.exports, we can export functions, objects, and their references from one file and can use them in other files by importing them by require() method.
+
+
+Que-5.Difference between default export and named export.
+Ans--> Named export- Named exports allow us to share multiple objects, functions or variables from a single file and were introduced with the release of ES2015. Named exports are imported with curly braces in various files and must be imported using the name of the object, function or variable that was exported.
+
+default export--Export defaults are used to export a single module, variable, expression, or function from a JavaScript file so that it can be used in any other file of either the same program or even in an entirely different program.
+
+
+Que-6.How do you import any module in Node.js?
+Ans--> If we observe a Node JS Application or Module, it may dependent on other existing Node JS modules or our own Modules. The major advantage of Modularity is reusability. We don’t need to redevelop the same existing functionality. We can import a Module and reuse that module functionality very easily. How to import a Node JS Module: We use same technique to import our modules or existing Node JS Modules. Node JS Platform has provided a function call “require()” to import one module into another.
+ Syntax :var arthmetic = require("arthmetic");
